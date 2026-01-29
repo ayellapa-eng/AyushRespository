@@ -1,0 +1,22 @@
+a = 6
+b = 7
+print(f"{a} + {b} = {a+b}")
+print(f"True" if a + b == 13 else "False")
+print(f"{a} ^ {b} = {a ^ b}")
+print(f"{a} or {b} = {bool(a or b)}")
+print(f"{a} and {b} = {bool(a and b)}")
+print(f"{a} & {b} = {a & b}")
+print(f"{a} | {b} = {a|b}")
+print(f"{a} << {b} = {a << b}")
+print(f"{a} >> {b} = {a >> b}")
+
+#OUTPUT:
+6 + 7 = 13
+True
+6 ^ 7 = 1
+6 or 7 = True
+6 and 7 = True
+6 & 7 = 6
+6 | 7 = 7
+6 << 7 = 768
+6 >> 7 = 0
