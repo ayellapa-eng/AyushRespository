@@ -1,0 +1,70 @@
+s1 = "Hello"
+print(s1)
+print(s1[0])
+print(s1[-1])
+s4 = s1 + " " + s1
+print(s4)
+s5 = (s1 + " ") * 3
+print(s5)
+print(len(s1))
+print("He" in s1)
+print("java" not in s1)
+text = "PythonDude"
+print(text)
+print(text[0:5])     
+print(text[7:])      
+print(text[:9])      
+print(text[-6:])     
+print(text[::3])     
+print(text[::-1])    
+sample = "   Hi Python Coders   "
+print(sample)
+print(sample.strip())
+print(sample.upper())
+print(sample.lower())
+print(sample.replace("python", "Java"))
+words = sample.strip().split()
+print(words)
+joined = "-".join(words)
+print(joined)
+print(sample.find("Python"))
+print(sample.count("l"))
+print(sample.startswith("   he"))
+print(sample.endswith("world   "))
+only_letters = "ABCDEFG"
+only_digits = "987654321"
+print(only_letters.isalpha())
+print(only_digits.isdigit())
+
+#OUTPUT
+
+Hello
+H
+o
+Hello Hello
+Hello Hello Hello 
+5
+True
+True
+PythonDude
+Pytho
+ude
+PythonDud
+onDude
+PhDe
+eduDnohtyP
+   Hi Python Coders   
+Hi Python Coders
+   HI PYTHON CODERS   
+   hi python coders   
+   Hi Python Coders   
+['Hi', 'Python', 'Coders']
+Hi-Python-Coders
+6
+0
+False
+False
+True
+True
+
+=== Code Execution Successful ===
