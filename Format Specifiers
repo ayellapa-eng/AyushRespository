@@ -1,0 +1,11 @@
+num = int(input("Enter Number: "))
+
+print(num)
+print(hex(num))
+print(oct(num))
+
+#OUTPUT
+Enter Number: 56
+56
+0x38
+0o70
