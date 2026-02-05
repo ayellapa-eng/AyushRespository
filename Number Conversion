@@ -1,0 +1,16 @@
+num = int(input("Enter number: "))
+base = int(input("Enter base: "))
+
+if num == 0:
+    print("0")
+digits = []    
+while num > 0:
+    digits.append(num % base)
+    num //= base
+digits.reverse()
+print(digits)
+
+#OUTPUT
+Enter number: 16
+Enter base: 2
+[1, 0, 0, 0, 0]
