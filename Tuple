@@ -1,0 +1,18 @@
+tuple_1 = ("1", "2", "3")
+print(tuple_1)
+print(type(tuple_1))
+print(len(tuple_1))
+# Tuples are immutable just like strings
+
+# unpacking of a tuple
+s1, s2, s3 = tuple_1
+print(s1, s2, s3)
+s = s1+s2+s3
+print(s)
+
+#OUTPUT
+('1', '2', '3')
+<class 'tuple'>
+3
+1 2 3
+123
